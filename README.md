@@ -1,14 +1,19 @@
-# Initialize git
-git init
+# 🧠 Mental Health Screener
 
-# Add your GitHub repo as remote
-git remote add origin https://github.com/YOUR-USERNAME/mental_health_screener.git
+This is a Flask-based web application that allows users to take a short mental health questionnaire to evaluate their emotional well-being. It uses a scoring system to give feedback on their current mental state and suggests next steps.
 
-# Add and commit all files
-git add .
-git commit -m "Initial commit - Mental Health Screener"
+## 🔍 Features
 
-# Push to GitHub
-git branch -M main
-git push -u origin main
+- 9-question screener adapted from PHQ-9 and anxiety indicators
+- User-friendly interface using HTML and CSS
+- Real-time feedback based on total score
+- Simple Flask backend to manage quiz and result rendering
 
+## 🚀 Technologies Used
+
+- Python (Flask)
+- HTML5 & CSS3
+- Bootstrap-ready layout (optional)
+- Jinja2 templates
+
+## 📦 Folder Structure
